@@ -9,3 +9,6 @@ edition = "2021"
 
 axum = "0.6.8"
 tokio = {version="1.25.0", features = ["macros", "rt-multi-thread"] }
+anyhow = "1.0.69"
+regex = "1.7.1"
+hyper = { version="0.14.24", features=["client"] }
